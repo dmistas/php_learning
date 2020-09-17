@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    height: 100%;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+h1,
+h3 {
+    margin: 20px 0;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.6em
+}
+
+.nav {
+    display: flex;
+    height: 70px;
+    align-items: center;
+}
+
+.logo {
+    text-transform: uppercase;
+}
+
+.logo > img {
+    width: 40px;
+}
+
+.find {
+    margin-left: auto;
+    padding: 0 20px;
+    width: 20vw;
+
+}
+
+.find-form {
+    width: 100%;
+}
+
+.find-form > input {
+    width: 100%;
+    height: 30px;
+}
+
+.find-form > label {
+    display: none;
+}
+#num-in-cart {
+    vertical-align: super;
+    font-size: 14px;
+    color: red;
+}
+
+.nav-div {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-div a {
+    text-transform: uppercase;
+
+}
+
+.main-content {
+    display: flex;
+}
+
+.side-menu {
+    width: auto;
+    margin-top: 80px;
+}
+
+.menu-item {
+    text-transform: uppercase;
+    margin: 10px 0;
+    padding: 1px;
+    border-bottom: transparent solid 1px;
+
+}
+
+.menu-item a {
+    border-bottom: transparent solid 1px;
+}
+
+.menu-item a:hover {
+    border-bottom: #333333 solid 1px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: calc(100vh - 170px);
+    padding: 0 50px;
+    max-width: 100%;
+}
+
+.content img {
+    max-width: 70%;
+
+}
+
+.goods {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 50px 0 50px;
+    min-height: 80vh;
+
+
+}
+
+.goods-wrap {
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 450px;
+    padding: 20px 20px;
+}
+
+.goods p {
+    text-align: left;
+}
+
+.goods-picture img {
+    width: 400px;
+}
+
+
+.btn {
+
+    width: 125px;
+    margin: 20px auto 0;
+    padding: 8px 0;
+}
+
+.detailed {
+    border: 1px solid #333;
+}
+
+
+.buy {
+    color: #fff;
+    background-color: forestgreen;
+    text-align: center;
+}
+
+.buy:hover {
+    box-shadow: 3px 3px 30px rgba(21, 84, 21, 0.25);
+}
+
+#price {
+    font-weight: 700;
+    
+}
+.feedbacks {
+    margin-left: 100px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #919191;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
