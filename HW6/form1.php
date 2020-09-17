@@ -62,7 +62,7 @@
 <form action="" method="post">
     <div style="display: flex">
         <div style="margin: 0 10px"><p>Введите первое число</p>
-            <input type="text" name="x" value=" <?php if (isset($_POST['x'])) echo $_POST['x'];?> ">
+            <input type="text" name="x" value="<?php if (isset($_POST['x'])) echo $_POST['x'];?>">
         </div>
         <div style="margin: 0 10px">
             <p>Операция</p>
